@@ -28,4 +28,4 @@
     
 **Output:**
 
-    ![alt text](https://raw.githubusercontent.com/DrewOrtegoGIS/ArcPy-Samples/master/Create-Grid-Demo/output.JPG "Input")
+    ![alt text](https://raw.githubusercontent.com/DrewOrtegoGIS/ArcPy-Samples/master/Create-Grid-Demo/output.JPG "Output")
