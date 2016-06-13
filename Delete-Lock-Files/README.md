@@ -1,8 +1,11 @@
 #Delete-Lock-Files
 
 For use in Esri's ArcMap and ArcCatalog software as a Python Add-In.
-
 https://www.arcgis.com/home/item.html?id=5f3aefe77f6b4f61ad3e4c62f30bff3b
+
+**Demonstrates**
+* Use of a Python Add-In and how to utilize the provided event functions.
+* Use of the glob module
 
 **Purpose:**
 
