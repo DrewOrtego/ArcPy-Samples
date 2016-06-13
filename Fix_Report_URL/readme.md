@@ -41,7 +41,18 @@
         
 **Work Flow:**
 
-   
+         Creates a new HTML file and copies the HTM file to it, line-by-line. If
+         an <a> tag is found with the href-attribute set to "True", it will be
+         corrected to fix that URL.
+         
+         As the script runs, it reports inaccessible URLs so that
+         the user can double-check that address. This is useful for replacing
+         any URL's which are inaccessible.
+         
+         If a .toc file is detected, the hyperlinks in that .toc file will be
+         repaired to link to the new HTML file created in fix_report_urls. This
+         is not required, but exetremely useful to customer's who need this
+         functionality.
     
 **Input:**
 
