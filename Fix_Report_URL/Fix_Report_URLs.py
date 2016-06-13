@@ -61,6 +61,7 @@ def fix_report_urls(report, fixed_report):
                 out_file.write(line)
     print("The new HTML file has been created. Checking for .toc file...")
 
+
 def check_url(url):
     ''' Checks a URL for accessibility. Will report inaccessible URLs so that
         the user can double-check that address.'''
@@ -70,6 +71,7 @@ def check_url(url):
         print "Couldn't acccess a URL, please check this address:", url
     else:
         pass
+
 
 def fix_table_of_contents(htm_file, html_file):
     ''' If a .toc file is detected, the hyperlinks in that .toc file will be
