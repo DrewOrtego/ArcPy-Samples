@@ -1,7 +1,7 @@
 #Delete-Lock-Files
 
 **Demonstrates**
-* Use of a Python Add-In and how to utilize the provided event functions.
+* Use of a Python Add-In and how to utilize the provided event functions
 * Use of the glob module
 
 **Purpose:**
