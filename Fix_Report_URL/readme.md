@@ -1,6 +1,7 @@
 # ArcPy-Samples/Fix_Report_URL
 
 **Demonstrates**
+* Bug fix for an issue with Esri's Report Designer utility
 * Use of functions to compartmentalize functionality
 * Error checking to ensure that the script will run properly on any system, and report issues in a useful manner
 * Effective reporting for describing the bug-fix to Esri's development team
