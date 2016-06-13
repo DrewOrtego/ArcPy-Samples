@@ -23,7 +23,9 @@
     workspace.
     
 **Input:**
-![alt text](https://raw.githubusercontent.com/DrewOrtegoGIS/ArcPy-Samples/master/Create-Grid-Demo/input.JPG "Input")
+
+    Takes any feature class and creates a polygon feature class over it.
+    (See screenshot below.)
     
 **Output:**
 ![alt text](https://raw.githubusercontent.com/DrewOrtegoGIS/ArcPy-Samples/master/Create-Grid-Demo/output.JPG "Output")
