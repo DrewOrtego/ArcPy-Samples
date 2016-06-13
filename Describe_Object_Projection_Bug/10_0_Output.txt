@@ -1,0 +1,54 @@
+Python 2.6.5 (r265:79096, Mar 19 2010, 21:48:26) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+
+    ****************************************************************
+    Personal firewall software may warn about the connection IDLE
+    makes to its subprocess using this computer's internal loopback
+    interface.  This connection is not visible on any external
+    interface and no data is sent to or received from the Internet.
+    ****************************************************************
+    
+IDLE 2.6.5      ==== No Subprocess ====
+>>> 
+    Dataset Name -------------------- Projection -- WKID
+        Feature Class Name ------------ Projection -- WKID
+
+1.  Environmental_Samples --------- ED_1950_UTM_Zone_31N -- 23031
+     Environmental_Samples_Pnt ----- ED_1950_UTM_Zone_31N -- 23031
+     Geotechnical_Sample_Pnt ------- ED_1950_UTM_Zone_31N -- 23031
+     TSdip_Sample_Pnt -------------- ED_1950_UTM_Zone_31N -- 23031
+
+2.  Seabed_Features --------------- ED_1950_UTM_Zone_31N -- 23031
+     Seabed_Feature_Arc ------------ ED_1950_UTM_Zone_31N -- 23031
+     Seabed_Feature_Ply ------------ ED_1950_UTM_Zone_31N -- 23031
+     Seabed_Feature_Pnt ------------ ED_1950_UTM_Zone_31N -- 23031
+     Seabed_Slope_Pnt -------------- ED_1950_UTM_Zone_31N -- 23031
+     Sediment_Primary_Ply ---------- ED_1950_UTM_Zone_31N -- 23031
+     Sediment_Secondary_Ply -------- ED_1950_UTM_Zone_31N -- 23031
+
+3.  Shallow_Intermediate_Geology -- ED_1950_UTM_Zone_31N -- 23031
+     Acoustic_Feature_ply ---------- ED_1950_UTM_Zone_31N -- 23031
+     Acoustic_Feature_pnt ---------- ED_1950_UTM_Zone_31N -- 23031
+     Fault_arc --------------------- ED_1950_UTM_Zone_31N -- 23031
+     Fault_ply --------------------- ED_1950_UTM_Zone_31N -- 23031
+     Fault_pnt --------------------- ED_1950_UTM_Zone_31N -- 23031
+     Geologic_Feature_arc ---------- ED_1950_UTM_Zone_31N -- 23031
+     Geologic_Feature_ply ---------- ED_1950_UTM_Zone_31N -- 23031
+     Geologic_Feature_pnt ---------- ED_1950_UTM_Zone_31N -- 23031
+     Isochron ---------------------- ED_1950_UTM_Zone_31N -- 23031
+     Isopach ----------------------- ED_1950_UTM_Zone_31N -- 23031
+     Line_of_Profile --------------- ED_1950_UTM_Zone_31N -- 23031
+     Paleo_Channel_System_Contour -- ED_1950_UTM_Zone_31N -- 23031
+     Paleo_Channel_System_arc ------ ED_1950_UTM_Zone_31N -- 23031
+     Paleo_Channel_System_ply ------ ED_1950_UTM_Zone_31N -- 23031
+     Paleo_Channel_System_pnt ------ ED_1950_UTM_Zone_31N -- 23031
+
+4.  Survey_Measurements ----------- ED_1950_UTM_Zone_31N -- 23031
+     Bathymetry_Contours ----------- ED_1950_UTM_Zone_31N -- 23031
+     Chart_Index_Map --------------- ED_1950_UTM_Zone_31N -- 23031
+     Proposed_Survey_Run_Lines ----- ED_1950_UTM_Zone_31N -- 23031
+     Survey_Equipment_Limits ------- ED_1950_UTM_Zone_31N -- 23031
+     Survey_Keysheet --------------- ED_1950_UTM_Zone_31N -- 23031
+     Survey_Sounding_Grid ---------- ED_1950_UTM_Zone_31N -- 23031
+     Survey_Tracklines ------------- ED_1950_UTM_Zone_31N -- 23031
+>>> 

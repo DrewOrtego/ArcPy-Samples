@@ -1,0 +1,47 @@
+*** Python 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)] on win32. ***
+*** Remote Python engine  is active ***
+>>> 
+*** Remote Interpreter Reinitialized  ***
+>>> 
+    Dataset Name -------------------- Projection -- WKID
+        Feature Class Name ------------ Projection -- WKID
+
+1.  Environmental_Samples --------- ED_1950_UTM_Zone_31N -- 23031
+     Environmental_Samples_Pnt ----- GCS_WGS_1984 -- 4326
+     Geotechnical_Sample_Pnt ------- GCS_WGS_1984 -- 4326
+     TSdip_Sample_Pnt -------------- GCS_WGS_1984 -- 4326
+
+2.  Seabed_Features --------------- ED_1950_UTM_Zone_31N -- 23031
+     Seabed_Feature_Arc ------------ GCS_WGS_1984 -- 4326
+     Seabed_Feature_Ply ------------ GCS_WGS_1984 -- 4326
+     Seabed_Feature_Pnt ------------ GCS_WGS_1984 -- 4326
+     Seabed_Slope_Pnt -------------- GCS_WGS_1984 -- 4326
+     Sediment_Primary_Ply ---------- GCS_WGS_1984 -- 4326
+     Sediment_Secondary_Ply -------- GCS_WGS_1984 -- 4326
+
+3.  Shallow_Intermediate_Geology -- ED_1950_UTM_Zone_31N -- 23031
+     Acoustic_Feature_ply ---------- GCS_WGS_1984 -- 4326
+     Acoustic_Feature_pnt ---------- GCS_WGS_1984 -- 4326
+     Fault_arc --------------------- GCS_WGS_1984 -- 4326
+     Fault_ply --------------------- GCS_WGS_1984 -- 4326
+     Fault_pnt --------------------- GCS_WGS_1984 -- 4326
+     Geologic_Feature_arc ---------- GCS_WGS_1984 -- 4326
+     Geologic_Feature_ply ---------- GCS_WGS_1984 -- 4326
+     Geologic_Feature_pnt ---------- GCS_WGS_1984 -- 4326
+     Isochron ---------------------- GCS_WGS_1984 -- 4326
+     Isopach ----------------------- GCS_WGS_1984 -- 4326
+     Line_of_Profile --------------- GCS_WGS_1984 -- 4326
+     Paleo_Channel_System_Contour -- GCS_WGS_1984 -- 4326
+     Paleo_Channel_System_arc ------ GCS_WGS_1984 -- 4326
+     Paleo_Channel_System_ply ------ GCS_WGS_1984 -- 4326
+     Paleo_Channel_System_pnt ------ GCS_WGS_1984 -- 4326
+
+4.  Survey_Measurements ----------- ED_1950_UTM_Zone_31N -- 23031
+     Bathymetry_Contours ----------- GCS_WGS_1984 -- 4326
+     Chart_Index_Map --------------- GCS_WGS_1984 -- 4326
+     Proposed_Survey_Run_Lines ----- GCS_WGS_1984 -- 4326
+     Survey_Equipment_Limits ------- GCS_WGS_1984 -- 4326
+     Survey_Keysheet --------------- GCS_WGS_1984 -- 4326
+     Survey_Sounding_Grid ---------- GCS_WGS_1984 -- 4326
+     Survey_Tracklines ------------- GCS_WGS_1984 -- 4326
+>>> 
