@@ -22,7 +22,9 @@
 
         This script will repair those links, and remove the redacted <nobr> tags, making the URL's function correctly.
 
-        Occasionally the user will want to make a Table of Contents HTM file in conjunction with the report. This script will detect that TOC file as long as it has the same name as the report HTM file, and update the links in that TOC file to utilize the repaired HTML file.
+        Occasionally the user will want to make a Table of Contents HTM file in conjunction with the report. This script will detect
+        that TOC file as long as it has the same name as the report HTM file, and update the links in that TOC file to utilize the
+        repaired HTML file.
 
         [More information about Report Designer](http://resources.arcgis.com/en/help/main/10.2/index.html#//004v00000002000000)
                 
@@ -33,7 +35,8 @@
         From that zip file, move the "bs4" folder into the following directory:
         C:\Python27\ArcGIS10.x\Lib\site-packages
         
-        * This script could potentially run just fine with any HTM file, so verify that you are using it to correct HTM or HTML files created with the Report Designer.
+        * This script could potentially run just fine with any HTM file, so verify that you are using it to correct HTM or 
+        HTML files created with the Report Designer.
         
 **Work Flow:**
 
