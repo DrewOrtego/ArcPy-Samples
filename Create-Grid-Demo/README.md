@@ -1,9 +1,9 @@
 # Create-Grid-Demo
 
 **Demonstrates**
-* Use of ArcPy to create a polygon feature class.
-* Nested for-loops and trigonometry to accurately determine the spatial extent of a feature class.
-* Use of a custom class and functions.
+* Use of ArcPy to create a polygon feature class
+* Nested for-loops and trigonometry to accurately determine the spatial extent of a feature class
+* Use of a custom class and functions
 
 **Usage:**
 
