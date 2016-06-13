@@ -1,4 +1,5 @@
 """ Demonstrate usage of the DA module's InsertCursor and SearchCursor. """
+
 import arcpy, os
 
 # 1 Parameters for Search Cursor:
