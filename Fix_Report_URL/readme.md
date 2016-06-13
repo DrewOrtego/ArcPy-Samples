@@ -36,8 +36,8 @@
         From that zip file, move the "bs4" folder into the following directory:
         C:\Python27\ArcGIS10.x\Lib\site-packages
         
-        * This script could potentially run just fine with any HTM file, so verify that you are using it to correct HTM or 
-        HTML files created with the Report Designer.
+        * This script could potentially run just fine with any HTM file, so verify that you are using it to 
+        correct HTM or HTML files created with the Report Designer.
         
 **Work Flow:**
 
