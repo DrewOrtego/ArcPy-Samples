@@ -25,4 +25,4 @@
     
 **Output:**
 
-    N/A.
+    Deletes any files with the .loc or .lock extensions.
