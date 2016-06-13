@@ -1,27 +1,34 @@
-# Describe_Object_Projection_Bug
+# ArcPy-Samples/Describe_Object_Projection_Bug
 
-**Name:**
+**Demonstrates**
+* Use of ArcPy Describe objects to report metadata about dataset's and feature classes
+* Use of the os module
 
-    Spatial_Describe.py
+**Usage:**
 
-**Author:**
-
-    Andrew Ortego - 08/22/2014
-
+    Runs as a standalone script with Python 2.7
+    
+    
 **Purpose:**
 
-    Demonstrates an equivilency bug between ArcGIS 10.0.0 and 
-    10.1 through 10.2.2. The Describe object for a feature class does not 
-    catch the expected spatial reference name. Instead, WGS1984 is found.
+    Demonstrates an equivilency bug between 10.0 (SP0) and 10.1 -
+    10.2.2. The Describe object for a feature class does not catch
+    the expected spatial reference name. Instead, WGS1984 is found.
     The issue is not present for the dataset which contains the
     feature class.
+    
+    
+**Work Flow:**
 
+    Collects information about a dataset and prints formatted output
+    to the console. Useful if modified to report on specific metadata,
+    such as spatial information or anything else available through
+    the ArcPy Describe objects.
+    
 **Input:**
 
-    Line 16: The name of the geodatabase to be scanned.
-    **Ensure that the script it run from the same directory as
-    the geodatabase.**
-
+    Line 16: The directory to the file geodatabase.
+    
 **Output:**
 
     Prints the spatial info for each dataset and the feature
