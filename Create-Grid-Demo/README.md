@@ -24,8 +24,8 @@
     
 **Input:**
 
-    ![alt text](https://github.com/Drewman315/Create-Grid-Demo/blob/master/input.JPG?raw=true "Input")
+    ![alt text](https://github.com/DrewOrtegoGIS/ArcPy-Samples/edit/master/Create-Grid-Demo/input.JPG?raw=true "Input")
     
 **Output:**
 
-    ![alt text](https://github.com/Drewman315/Create-Grid-Demo/blob/master/output.JPG?raw=true "Input")
+    ![alt text](https://github.com/DrewOrtegoGIS/ArcPy-Samples/edit/master/Create-Grid-Demo/output.JPG?raw=true "Input")
