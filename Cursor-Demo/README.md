@@ -4,6 +4,7 @@
 **Demonstrates**
 * Use of the Search, Insert, and Update Cursor's provided by the ArcPy site package.
 * Use of nested cursor's to iterate through a table and make logical decisions/changes.
+* SQL statements to filter results of each demo.
 
 **Usage:**
 
