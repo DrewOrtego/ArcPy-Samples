@@ -23,8 +23,7 @@
     workspace.
     
 **Input:**
-
-    ![alt text](https://raw.githubusercontent.com/DrewOrtegoGIS/ArcPy-Samples/master/Create-Grid-Demo/input.JPG "Input")
+![alt text](https://raw.githubusercontent.com/DrewOrtegoGIS/ArcPy-Samples/master/Create-Grid-Demo/input.JPG "Input")
     
 **Output:**
 
