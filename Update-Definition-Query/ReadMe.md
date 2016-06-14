@@ -1,4 +1,4 @@
-# ArcPy-Samples/Update-Definition-Query
+#Update-Definition-Query
 
 **Demonstrates**
 *  Use of a dict as an associative array, providing a visually appealing solution to replacing one query with another
