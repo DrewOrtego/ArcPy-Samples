@@ -1,5 +1,5 @@
 
-#ArcPy-Samples/Cursor-Demo
+#Cursor-Demo
 
 **Demonstrates**
 * Use of the Search, Insert, and Update Cursor's provided by the ArcPy site package.
