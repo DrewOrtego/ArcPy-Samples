@@ -1,5 +1,6 @@
 # ArcPy-Samples
 Python scripts which utilize the ArcPy site package.
+Over 95% of this repo is Python code, and I'm not sure why GitHub is reporting 60% of the repo as HTML.
 
 **Demonstrates**
 
