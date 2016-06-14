@@ -1,5 +1,5 @@
 # ArcPy-Samples
-Python scripts which utilize the ArcPy site package
+Python scripts which utilize the ArcPy site package.
 
 **Demonstrates**
 
