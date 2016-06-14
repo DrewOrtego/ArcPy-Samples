@@ -1,7 +1,9 @@
 # ArcPy-Samples/Update-Definition-Query
 
 **Demonstrates**
-* 
+*  Use of a dict as an associative array, providing a visually appealing solution to replacing one query with another
+*  Expressive debugging statements to inform user as to the progress of the script as it runs
+*  Creation of new data to prevent unnecessary overwriting of previous data (safely run the script!)
 
 **Usage:**
 
@@ -24,10 +26,10 @@
     
 **Input:**
 
-   1) Update the workspace on line 22 to the directory with your MXD files.
-   2) Update the "expressions" dictionary on line 24 with the old
-   expression associated with the new expression. New replaces old!
+    1) Update the workspace on line 22 to the directory with your MXD files.
+    2) Update the "expressions" dictionary on line 24 with the old
+    expression associated with the new expression. New replaces old!
     
 **Output:**
 
-   A copy of each MXD with the newly updated Definition Query.
+    A copy of each MXD with the newly updated Definition Query.
