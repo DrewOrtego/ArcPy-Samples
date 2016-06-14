@@ -16,7 +16,8 @@
 
     Updates a subsection of a layer's Definition Query.
     The 'expressions' dictionary replaces the key with its value.
-    This is useful when updating a Def. Query to reflect changes made to a feature class' properties.
+    This is useful when updating a Def. Query to reflect changes made to a feature class' 
+    properties.
     
 **Work Flow:**
 
