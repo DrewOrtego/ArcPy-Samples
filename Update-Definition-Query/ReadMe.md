@@ -8,7 +8,7 @@
 **Usage:**
 
     This can be run as a standalone script in Python 2.7 with the arcpy site package installed.
-    Note there are two versions of this script. One utilizes functions while the other just
+    Note there are **two** versions of this script. One utilizes functions while the other just
     "gets the job done" in about 60 less lines of code. Either 
     
 **Purpose:**
