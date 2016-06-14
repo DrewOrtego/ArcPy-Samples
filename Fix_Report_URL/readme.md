@@ -1,4 +1,4 @@
-# ArcPy-Samples/Fix_Report_URL
+#Fix_Report_URL
 
 **Demonstrates**
 * Bug fix for an issue with Esri's Report Designer utility
