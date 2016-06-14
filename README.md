@@ -18,3 +18,6 @@ Python scripts which utilize the ArcPy site package
 * Use of the glob, os, and beautiful soup modules
 * Error checking to ensure that the script will run properly on any system, and report issues in a useful manner
 * Effective reporting for describing the bug-fix to Esri's development team
+* Use of a dict as an associative array, providing a visually appealing solution to replacing one query with another
+* Expressive debugging statements to inform user as to the progress of the script as it runs
+* Creation of new data to prevent unnecessary overwriting of previous data (safely run the script!)
