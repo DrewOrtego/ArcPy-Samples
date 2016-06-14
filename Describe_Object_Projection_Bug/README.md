@@ -1,4 +1,4 @@
-# ArcPy-Samples/Describe_Object_Projection_Bug
+#Describe_Object_Projection_Bug
 
 **Demonstrates**
 * Use of ArcPy Describe objects to report metadata about dataset's and feature classes
