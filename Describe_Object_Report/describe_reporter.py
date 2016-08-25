@@ -12,14 +12,20 @@
 
     INPUT
     Command line arguments must include a verbose or terse flag (-v or -t) as
-    the first arguement. Subsequent arguements are each of the describe 
-    properties being asked for in the report. These are optional, and all
-    properties will be reported if these arguements are not provided.
+    the first arguement. The difference between the two is that verbose will
+    show you the attributes that have no value, whereas terse will not.
+    Subsequent arguements are each of the describe properties being asked for 
+    in the report. These are optional, and all properties will be reported if 
+    these arguements are not provided.
+
+    CAVEATS
+    * The output will be overwritten unless you change the output's path.
     
     SAMPLE USAGE
+    > python describe_reporter.py -v
+    > python describe_reporter.py -t
     > python describe_reporter.py -v "General Describe" "Layer" "Table"
     > python describe_reporter.py -t "General Describe" "Workspace"
-    > python describe_reporter.py -v
 
     SAMPLE OUTPUT (in terse mode)
     {
@@ -34,8 +40,9 @@
 """
 
 import arcpy
-import pickle, os, sys
+import pickle, os, sys, time
 from pprint import pprint
+from functools import wraps
 from collections import OrderedDict as od
 try:
     from file_list import user_files
@@ -387,15 +394,36 @@ properties = {
         },
 }
 
+def timethis(func):
+    """ Decorator that reports the execution time.
+    """
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        print("Created {0} in {1}s".format(
+            os.path.join(os.getcwd(), u'Describe Report.txt'), 
+            round(end-start)))
+        return result
+    return wrapper
+
 def set_mode(user_input):
     """ Check whether the user has select verbose or terse mode. This is set
-        with the -v or -t flags, respectively."""
-    if user_input[0] not in ["-v", "-t"]:
+        with the -v or -t flags, respectively.
+    """
+    try:
+        if user_input[1] not in ["-v", "-t"]:
+            print("ERROR   : Report mode not selected.")
+            print("SOLUTION: Use -v or -t (verbose or terse) as first arguement.")
+            print("EXAMPLE : > python describe_reporter.py -v Layer Table Workspace")
+            raise SystemExit
+    except IndexError:
         print("ERROR   : Report mode not selected.")
         print("SOLUTION: Use -v or -t (verbose or terse) as first arguement.")
-        print("EXAMPLE : python describe_reporter.py -v Layer Table Workspace")
+        print("EXAMPLE : > python describe_reporter.py -v Layer Table Workspace")
         raise SystemExit
-    return user_input[0] == "-v"
+    return user_input[1] == "-v"
 
 
 def check_prop_list(user_types):
@@ -417,10 +445,12 @@ def check_prop_list(user_types):
     return queried_types
 
 
+@timethis
 def generate_report(verbose_mode, property_list, user_files):
     """ Generates the report containing each file and its associated 
         Describe-object attributes. Report is a dictionary and can be useful
-        for other scripts."""
+        for other scripts.
+    """
     report_results = {}
     report_path = open(os.path.join(os.getcwd(), u'Describe Report.txt'), 'wt')
     for f in user_files:
@@ -444,10 +474,11 @@ def generate_report(verbose_mode, property_list, user_files):
 
 if __name__ == "__main__":
     """ Collect user input, check report mode, clean list of properties to be
-        reported, and generate the report."""
-    user_input = [arg for arg in sys.argv[1:]]
+        reported, and generate the report.
+    """
+    user_input = [arg for arg in sys.argv]
     verbose_mode = set_mode(user_input)
-    cleaned_user_types = check_prop_list(user_input[1:])
+    cleaned_user_types = check_prop_list(user_input[2:])
     generate_report(verbose_mode, cleaned_user_types, user_files)
     print('\nfin.')
 
