@@ -21,7 +21,7 @@
 
 **Input:**
 
-    Be sure to update file_list.py before running!
+    NOTE: Be sure to update file_list.py before running!
     > python describe_reporter.py -v
     > python describe_reporter.py -t
     > python describe_reporter.py -v "General Describe" "Layer" "Table"
@@ -31,7 +31,7 @@
 
     * The output will be overwritten unless you change the output's path in the source code
 
-**Output (in terse mode)**
+**Output Format (in terse mode)**
 
     {
         Filename 1: {
