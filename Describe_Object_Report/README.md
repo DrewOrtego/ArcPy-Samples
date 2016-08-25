@@ -1,5 +1,11 @@
 # Describe-Object-Report
 
+**Demonstrates**
+
+    * Use of decorator
+    * Command-line argument processing
+    * Use of arcpy's extensive collection of Describe objects
+
 **Description:**
 
     Creates a report of all arcpy describe-object properties for an object.
