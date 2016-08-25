@@ -1,7 +1,9 @@
 **Description:**
+
     Creates a report of all arcpy describe-object properties for an object.
 
 **Usage:**
+
     Command line arguments must include a verbose or terse flag (-v or -t) as
     the first arguement. The difference between the two is that verbose will
     show you the attributes that have no value, whereas terse will not.
@@ -10,6 +12,7 @@
     these arguements are not provided.
 
 **Input:**
+
     Be sure to update file_list.py before running!
     > python describe_reporter.py -v
     > python describe_reporter.py -t
@@ -17,9 +20,11 @@
     > python describe_reporter.py -t "General Describe" "Workspace"
 
 **Caveats**
+
     * The output will be overwritten unless you change the output's path.
 
 **Output (in terse mode)**
+
     {
         Filename 1: {
             Describe Object Class 1: {
