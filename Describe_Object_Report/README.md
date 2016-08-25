@@ -29,7 +29,7 @@
 
 **Caveats**
 
-    * The output will be overwritten unless you change the output's path.
+    * The output will be overwritten unless you change the output's path in the source code
 
 **Output (in terse mode)**
 
