@@ -30,6 +30,7 @@
 **Caveats**
 
     * The output will be overwritten unless you change the output's path in the source code
+    * Some Describe properties do not have any attributes (e.g. dbase) and are commented out in the 'properties' dict
 
 **Output Format (in terse mode)**
 
