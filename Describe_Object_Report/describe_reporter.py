@@ -32,29 +32,15 @@
 """
 
 import arcpy
-import requests
-import pickle
 import time
 import sys
 import os
-from default_props import default_properties
+from config_files.default_props import default_properties
 from pprint import pprint
 from functools import wraps
 from collections import OrderedDict as od
 try:
-    from bs4 import BeautifulSoup as BSoup
-except ImportError:
-    message = """
-    The Beautiful Soup 4 module was not found. Please install from:
-    http://www.crummy.com/software/BeautifulSoup/#Download
-    Please verify that the \"bs4\" folder is located in the following folder:
-    C:\Python27\ArcGIS10.x\Lib\site-packages
-    Exiting program...
-    """
-    print(message)
-    raise SystemExit
-try:
-    from file_list import user_files
+    from config_files.file_list import user_files
 except ImportError as e:
     message = """
     ERROR: Could not find list of files to be scanned. Please verify
