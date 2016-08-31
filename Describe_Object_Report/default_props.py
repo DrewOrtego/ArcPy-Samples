@@ -22,7 +22,7 @@ default_properties = {
         'isDGN',
     },
 
-    'CAD FeatureClass': {
+    'CAD FeatureClass Properties': {
     },
 
     'Cadastral Fabric Properties': {
@@ -87,7 +87,7 @@ default_properties = {
         'isTimeInUTC',
     },
 
-    'dBase': {
+    'dBase Properties': {
     },
 
     'FeatureClass Properties': {
@@ -145,7 +145,7 @@ default_properties = {
         'whereClause',
     },
 
-    'Map Document': {
+    'Map Document Properties': {
     },
 
     'Moscaic Dataset Properties': {
@@ -315,7 +315,7 @@ default_properties = {
         'nameString',
     },
 
-    'Text File': {
+    'Text File Properties': {
     },
 
     'Tin Properties': {
