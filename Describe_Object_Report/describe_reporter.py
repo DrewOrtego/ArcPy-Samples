@@ -40,11 +40,7 @@ from pprint import pprint
 from functools import wraps
 from collections import OrderedDict as od
 try:
-<<<<<<< HEAD
     from config_files.file_list import user_files
-=======
-    from file_list import user_files
->>>>>>> origin/master
 except ImportError as e:
     message = """
     ERROR: Could not find list of files to be scanned. Please verify
