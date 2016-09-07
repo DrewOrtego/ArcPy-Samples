@@ -29,6 +29,8 @@
 
     CAVEATS
     * The output will be overwritten unless you change the path in the code.
+    * The output is written to the directory your Windows Command Prompt is pointing to when you run the .py file.
+      [e.g. "C:\Users\drew\Desktop> python describe_reporter.py" will write the output to the Desktop.]
 """
 
 import arcpy
