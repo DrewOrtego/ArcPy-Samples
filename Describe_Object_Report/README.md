@@ -15,6 +15,12 @@
 
 **Usage:**
 
+    The files you wish to report on are all listed in config_files/file_list.py.
+    This is simply a python list with all the data paths to your file. If a file
+    cannot be found, you will see this in the report. If a file does not have an
+    attribute from a certain Describe Property, you will see an "N/A" associated
+    with that attibute (in verbose mode) or it will be empty (in terse mode).
+    
     All arguments are optional, and must be separated by whitespace. The first
     argument must be a verbose or terse flag, followed by the properties flag,
     otherwise you'll get a parsing error.
