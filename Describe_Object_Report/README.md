@@ -33,6 +33,7 @@
 
 **Input**
 
+    > python describe_reporter.py -t
     > python describe_reporter.py -t -p "Layer Properties" "Table Properties"
 
 **Caveats**
